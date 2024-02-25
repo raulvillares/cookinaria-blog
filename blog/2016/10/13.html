@@ -10,68 +10,68 @@
 
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
 
-    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <link href="../../../stylesheets/site.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
-    <script type="module" src="/javascripts/application.js"></script>
+    <script type="module" src="../../../javascripts/application.js"></script>
   </head>
 
   <body>
     <header>
-      <div class="header-image-container">
-<a href="/">          <img src="/img/cabecera.png" class="header-image" alt="" />
-</a>      </div>
+    <div class="header-image-container">
+<a href="../../../">        <img src="../../../img/cabecera.png" class="header-image" alt="" />
+</a>    </div>
       <h1 class="site-heading">Recetas para MyCook</h1>
     </header>
 
     <nav class="horizontal-menu" data-controller="dropdown">
       <div class="hamburger" data-action="click->dropdown#toggleHamburguerMenu">☰</div>
       <ul data-dropdown-target="mainMenu">
-        <li><a href="/full_index.html">Índice de recetas</a></li>
+        <li><a href="../../../full_index.html">Índice de recetas</a></li>
         <li class="dropdown">
           <a href="#" data-action="click->dropdown#toggle click@window->dropdown#close">Tipos de plato</a>
           <ul class="dropdown-content" data-dropdown-target="menu">
-              <li><a href="/categorias/Arroz y pasta.html">Arroz y pasta (13)</a></li>
-              <li><a href="/categorias/Bebidas y cócteles.html">Bebidas y cócteles (8)</a></li>
-              <li><a href="/categorias/Básicos.html">Básicos (3)</a></li>
-              <li><a href="/categorias/Carnes y aves.html">Carnes y aves (14)</a></li>
-              <li><a href="/categorias/Dulces y postres.html">Dulces y postres (60)</a></li>
-              <li><a href="/categorias/Entrantes y aperitivos.html">Entrantes y aperitivos (21)</a></li>
-              <li><a href="/categorias/Masas.html">Masas (10)</a></li>
-              <li><a href="/categorias/otras cosas.html">otras cosas (4)</a></li>
-              <li><a href="/categorias/Pescados y mariscos.html">Pescados y mariscos (14)</a></li>
-              <li><a href="/categorias/Potajes y legumbres.html">Potajes y legumbres (7)</a></li>
-              <li><a href="/categorias/Salsas.html">Salsas (1)</a></li>
-              <li><a href="/categorias/Sopas y cremas.html">Sopas y cremas (13)</a></li>
-              <li><a href="/categorias/Verduras y Hortalizas.html">Verduras y Hortalizas (40)</a></li>
+              <li><a href="../../../categorias/Arroz%20y%20pasta.html">Arroz y pasta (13)</a></li>
+              <li><a href="../../../categorias/Bebidas%20y%20c%C3%B3cteles.html">Bebidas y cócteles (8)</a></li>
+              <li><a href="../../../categorias/B%C3%A1sicos.html">Básicos (3)</a></li>
+              <li><a href="../../../categorias/Carnes%20y%20aves.html">Carnes y aves (14)</a></li>
+              <li><a href="../../../categorias/Dulces%20y%20postres.html">Dulces y postres (60)</a></li>
+              <li><a href="../../../categorias/Entrantes%20y%20aperitivos.html">Entrantes y aperitivos (21)</a></li>
+              <li><a href="../../../categorias/Masas.html">Masas (10)</a></li>
+              <li><a href="../../../categorias/otras%20cosas.html">otras cosas (4)</a></li>
+              <li><a href="../../../categorias/Pescados%20y%20mariscos.html">Pescados y mariscos (14)</a></li>
+              <li><a href="../../../categorias/Potajes%20y%20legumbres.html">Potajes y legumbres (7)</a></li>
+              <li><a href="../../../categorias/Salsas.html">Salsas (1)</a></li>
+              <li><a href="../../../categorias/Sopas%20y%20cremas.html">Sopas y cremas (13)</a></li>
+              <li><a href="../../../categorias/Verduras%20y%20Hortalizas.html">Verduras y Hortalizas (40)</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" data-action="click->dropdown#toggle click@window->dropdown#close">Temáticas</a>
           <ul class="dropdown-content" data-dropdown-target="menu">
-              <li><a href="/temas/Cocina asiática.html">Cocina asiática (4)</a></li>
-              <li><a href="/temas/Cocina francesa.html">Cocina francesa (6)</a></li>
-              <li><a href="/temas/Cocina italiana.html">Cocina italiana (9)</a></li>
-              <li><a href="/temas/Cocina árabe.html">Cocina árabe (2)</a></li>
-              <li><a href="/temas/Fiestas.html">Fiestas (6)</a></li>
-              <li><a href="/temas/Guarniciones.html">Guarniciones (1)</a></li>
-              <li><a href="/temas/Invierno.html">Invierno (3)</a></li>
-              <li><a href="/temas/Navidad.html">Navidad (7)</a></li>
-              <li><a href="/temas/Ocasiones especiales.html">Ocasiones especiales (10)</a></li>
-              <li><a href="/temas/Otoño.html">Otoño (6)</a></li>
-              <li><a href="/temas/Primavera.html">Primavera (11)</a></li>
-              <li><a href="/temas/Sin azúcar.html">Sin azúcar (5)</a></li>
-              <li><a href="/temas/Sin gluten.html">Sin gluten (5)</a></li>
-              <li><a href="/temas/Sin lácteos.html">Sin lácteos (3)</a></li>
-              <li><a href="/temas/Vaporera.html">Vaporera (9)</a></li>
-              <li><a href="/temas/Veganas.html">Veganas (1)</a></li>
-              <li><a href="/temas/Vegetarianas.html">Vegetarianas (44)</a></li>
-              <li><a href="/temas/Verano.html">Verano (12)</a></li>
+              <li><a href="../../../temas/Cocina%20asi%C3%A1tica.html">Cocina asiática (4)</a></li>
+              <li><a href="../../../temas/Cocina%20francesa.html">Cocina francesa (6)</a></li>
+              <li><a href="../../../temas/Cocina%20italiana.html">Cocina italiana (9)</a></li>
+              <li><a href="../../../temas/Cocina%20%C3%A1rabe.html">Cocina árabe (2)</a></li>
+              <li><a href="../../../temas/Fiestas.html">Fiestas (6)</a></li>
+              <li><a href="../../../temas/Guarniciones.html">Guarniciones (1)</a></li>
+              <li><a href="../../../temas/Invierno.html">Invierno (3)</a></li>
+              <li><a href="../../../temas/Navidad.html">Navidad (7)</a></li>
+              <li><a href="../../../temas/Ocasiones%20especiales.html">Ocasiones especiales (10)</a></li>
+              <li><a href="../../../temas/Oto%C3%B1o.html">Otoño (6)</a></li>
+              <li><a href="../../../temas/Primavera.html">Primavera (11)</a></li>
+              <li><a href="../../../temas/Sin%20az%C3%BAcar.html">Sin azúcar (5)</a></li>
+              <li><a href="../../../temas/Sin%20gluten.html">Sin gluten (5)</a></li>
+              <li><a href="../../../temas/Sin%20l%C3%A1cteos.html">Sin lácteos (3)</a></li>
+              <li><a href="../../../temas/Vaporera.html">Vaporera (9)</a></li>
+              <li><a href="../../../temas/Veganas.html">Veganas (1)</a></li>
+              <li><a href="../../../temas/Vegetarianas.html">Vegetarianas (44)</a></li>
+              <li><a href="../../../temas/Verano.html">Verano (12)</a></li>
           </ul>
         </li>
-        <li><a href="/about.html">Sobre cookinaria</a></li>
-        <li><a href="/useful_info.html">Información útil</a></li>
+        <li><a href="../../../about.html">Sobre cookinaria</a></li>
+        <li><a href="../../../useful_info.html">Información útil</a></li>
       </ul>
     </nav>
 
@@ -83,17 +83,17 @@
 
 
 <ul>
-    <li><a href="/blog/2016/10/13/magdalenas-saladas-de-boniato.html">Magdalenas saladas de boniato</a> <span>Oct 13</span></li>
+    <li><a href="13/magdalenas-saladas-de-boniato.html">Magdalenas saladas de boniato</a> <span>Oct 13</span></li>
 </ul>
 
 
       </main>
 
       <aside class="side-menu">
-        <img src="/img/gema.png" class="author-image" alt="" />
+        <img src="../../../img/gema.png" class="author-image" alt="" />
         <div class="text-content">
           ¡Hola! Soy Gema y el objetivo de este blog es compartir, inspirar y ayudarte a cocinar platos sanos y ricos para toda la familia.
-          <a href="/about.html">[Leer más]</a>
+          <a href="../../../about.html">[Leer más]</a>
         </div>
         <div class="social-icons">
 <a href="https://www.facebook.com/cookinaria/" target="_blank">            <i class="fab fa-facebook-square"></i>
@@ -105,221 +105,221 @@
             <p>Descubre el libro de recetas ricas y sencillas para toda la familia que te permitirá sacar todo el partido de tu MyCook.</p>
           </div>
           <div class="image-part">
-<a href="https://libromycook.com" target="_blank">              <img src="/img/libro.png" alt="Libro de recetas" />
+<a href="https://libromycook.com" target="_blank">              <img src="../../../img/libro.png" alt="Libro de recetas" />
 </a>          </div>
         </div>
         <div class="ingredient-cloud text-content">
           <h3 class="side-menu-title">Ingredientes</h3>
-            <a href="/ingredientes/aceite de coco.html"<span style="font-weight: 400; font-size: 12px;">aceite de coco</a></span>
-            <a href="/ingredientes/aceite de oliva.html"<span style="font-weight: 400; font-size: 12px;">aceite de oliva</a></span>
-            <a href="/ingredientes/aceite de sesamo.html"<span style="font-weight: 400; font-size: 15px;">aceite de sesamo</a></span>
-            <a href="/ingredientes/aceitunas.html"<span style="font-weight: 400; font-size: 12px;">aceitunas</a></span>
-            <a href="/ingredientes/acelgas.html"<span style="font-weight: 400; font-size: 12px;">acelgas</a></span>
-            <a href="/ingredientes/aguacate.html"<span style="font-weight: 400; font-size: 12px;">aguacate</a></span>
-            <a href="/ingredientes/ajetes.html"<span style="font-weight: 400; font-size: 12px;">ajetes</a></span>
-            <a href="/ingredientes/ajo.html"<span style="font-weight: 400; font-size: 17px;">ajo</a></span>
-            <a href="/ingredientes/ajo negro.html"<span style="font-weight: 400; font-size: 12px;">ajo negro</a></span>
-            <a href="/ingredientes/ajos tiernos.html"<span style="font-weight: 400; font-size: 12px;">ajos tiernos</a></span>
-            <a href="/ingredientes/albaricoques.html"<span style="font-weight: 400; font-size: 12px;">albaricoques</a></span>
-            <a href="/ingredientes/albondigas.html"<span style="font-weight: 400; font-size: 15px;">albondigas</a></span>
-            <a href="/ingredientes/alcachofas.html"<span style="font-weight: 400; font-size: 12px;">alcachofas</a></span>
-            <a href="/ingredientes/alcaparras.html"<span style="font-weight: 400; font-size: 12px;">alcaparras</a></span>
-            <a href="/ingredientes/almendras.html"<span style="font-weight: 400; font-size: 21px;">almendras</a></span>
-            <a href="/ingredientes/alubias.html"<span style="font-weight: 400; font-size: 12px;">alubias</a></span>
-            <a href="/ingredientes/anacardos.html"<span style="font-weight: 400; font-size: 12px;">anacardos</a></span>
-            <a href="/ingredientes/anís.html"<span style="font-weight: 400; font-size: 12px;">anís</a></span>
-            <a href="/ingredientes/apio.html"<span style="font-weight: 400; font-size: 12px;">apio</a></span>
-            <a href="/ingredientes/arandanos.html"<span style="font-weight: 400; font-size: 20px;">arandanos</a></span>
-            <a href="/ingredientes/arepas.html"<span style="font-weight: 400; font-size: 12px;">arepas</a></span>
-            <a href="/ingredientes/arroz.html"<span style="font-weight: 400; font-size: 22px;">arroz</a></span>
-            <a href="/ingredientes/atún.html"<span style="font-weight: 400; font-size: 12px;">atún</a></span>
-            <a href="/ingredientes/avellanas.html"<span style="font-weight: 400; font-size: 17px;">avellanas</a></span>
-            <a href="/ingredientes/avena.html"<span style="font-weight: 400; font-size: 15px;">avena</a></span>
-            <a href="/ingredientes/azafran.html"<span style="font-weight: 400; font-size: 12px;">azafran</a></span>
-            <a href="/ingredientes/azúcar.html"<span style="font-weight: 400; font-size: 12px;">azúcar</a></span>
-            <a href="/ingredientes/azúcar moreno.html"<span style="font-weight: 400; font-size: 12px;">azúcar moreno</a></span>
-            <a href="/ingredientes/bacalao.html"<span style="font-weight: 400; font-size: 18px;">bacalao</a></span>
-            <a href="/ingredientes/bacon.html"<span style="font-weight: 400; font-size: 15px;">bacon</a></span>
-            <a href="/ingredientes/bechamel.html"<span style="font-weight: 400; font-size: 15px;">bechamel</a></span>
-            <a href="/ingredientes/berenjena.html"<span style="font-weight: 400; font-size: 12px;">berenjena</a></span>
-            <a href="/ingredientes/berenjenas.html"<span style="font-weight: 400; font-size: 20px;">berenjenas</a></span>
-            <a href="/ingredientes/boniato.html"<span style="font-weight: 400; font-size: 17px;">boniato</a></span>
-            <a href="/ingredientes/brocoli.html"<span style="font-weight: 400; font-size: 12px;">brocoli</a></span>
-            <a href="/ingredientes/brownie.html"<span style="font-weight: 400; font-size: 12px;">brownie</a></span>
-            <a href="/ingredientes/bundtcake.html"<span style="font-weight: 400; font-size: 12px;">bundtcake</a></span>
-            <a href="/ingredientes/butifarra.html"<span style="font-weight: 400; font-size: 12px;">butifarra</a></span>
-            <a href="/ingredientes/cacao.html"<span style="font-weight: 400; font-size: 12px;">cacao</a></span>
-            <a href="/ingredientes/cafe.html"<span style="font-weight: 400; font-size: 12px;">cafe</a></span>
-            <a href="/ingredientes/calabacin.html"<span style="font-weight: 400; font-size: 20px;">calabacin</a></span>
-            <a href="/ingredientes/calabaza.html"<span style="font-weight: 400; font-size: 20px;">calabaza</a></span>
-            <a href="/ingredientes/calamares.html"<span style="font-weight: 400; font-size: 18px;">calamares</a></span>
-            <a href="/ingredientes/canela.html"<span style="font-weight: 400; font-size: 18px;">canela</a></span>
-            <a href="/ingredientes/caramelo.html"<span style="font-weight: 400; font-size: 12px;">caramelo</a></span>
-            <a href="/ingredientes/cardamomo.html"<span style="font-weight: 400; font-size: 12px;">cardamomo</a></span>
-            <a href="/ingredientes/carne picada.html"<span style="font-weight: 400; font-size: 18px;">carne picada</a></span>
-            <a href="/ingredientes/cava.html"<span style="font-weight: 400; font-size: 15px;">cava</a></span>
-            <a href="/ingredientes/cayena.html"<span style="font-weight: 400; font-size: 12px;">cayena</a></span>
-            <a href="/ingredientes/cebolla.html"<span style="font-weight: 400; font-size: 12px;">cebolla</a></span>
-            <a href="/ingredientes/cerdo.html"<span style="font-weight: 400; font-size: 17px;">cerdo</a></span>
-            <a href="/ingredientes/cerezas.html"<span style="font-weight: 400; font-size: 15px;">cerezas</a></span>
-            <a href="/ingredientes/cerveza.html"<span style="font-weight: 400; font-size: 15px;">cerveza</a></span>
-            <a href="/ingredientes/cerveza negra.html"<span style="font-weight: 400; font-size: 12px;">cerveza negra</a></span>
-            <a href="/ingredientes/champiñones.html"<span style="font-weight: 400; font-size: 20px;">champiñones</a></span>
-            <a href="/ingredientes/chirlas.html"<span style="font-weight: 400; font-size: 12px;">chirlas</a></span>
-            <a href="/ingredientes/chocolate.html"<span style="font-weight: 400; font-size: 24px;">chocolate</a></span>
-            <a href="/ingredientes/chocolate blanco.html"<span style="font-weight: 400; font-size: 12px;">chocolate blanco</a></span>
-            <a href="/ingredientes/chorizo.html"<span style="font-weight: 400; font-size: 12px;">chorizo</a></span>
-            <a href="/ingredientes/cilantro.html"<span style="font-weight: 400; font-size: 15px;">cilantro</a></span>
-            <a href="/ingredientes/clavo.html"<span style="font-weight: 400; font-size: 12px;">clavo</a></span>
-            <a href="/ingredientes/coca.html"<span style="font-weight: 400; font-size: 12px;">coca</a></span>
-            <a href="/ingredientes/coco.html"<span style="font-weight: 400; font-size: 17px;">coco</a></span>
-            <a href="/ingredientes/coliflor.html"<span style="font-weight: 400; font-size: 18px;">coliflor</a></span>
-            <a href="/ingredientes/comino.html"<span style="font-weight: 400; font-size: 12px;">comino</a></span>
-            <a href="/ingredientes/cookies.html"<span style="font-weight: 400; font-size: 12px;">cookies</a></span>
-            <a href="/ingredientes/copos de avena.html"<span style="font-weight: 400; font-size: 12px;">copos de avena</a></span>
-            <a href="/ingredientes/crema de cacahuetes.html"<span style="font-weight: 400; font-size: 12px;">crema de cacahuetes</a></span>
-            <a href="/ingredientes/croquetas.html"<span style="font-weight: 400; font-size: 12px;">croquetas</a></span>
-            <a href="/ingredientes/curcuma.html"<span style="font-weight: 400; font-size: 15px;">curcuma</a></span>
-            <a href="/ingredientes/curry.html"<span style="font-weight: 400; font-size: 17px;">curry</a></span>
-            <a href="/ingredientes/cuscús.html"<span style="font-weight: 400; font-size: 12px;">cuscús</a></span>
-            <a href="/ingredientes/dulces saludables.html"<span style="font-weight: 400; font-size: 12px;">dulces saludables</a></span>
-            <a href="/ingredientes/dátiles.html"<span style="font-weight: 400; font-size: 17px;">dátiles</a></span>
-            <a href="/ingredientes/escabeche.html"<span style="font-weight: 400; font-size: 12px;">escabeche</a></span>
-            <a href="/ingredientes/espinacas.html"<span style="font-weight: 400; font-size: 20px;">espinacas</a></span>
-            <a href="/ingredientes/espárragos.html"<span style="font-weight: 400; font-size: 12px;">espárragos</a></span>
-            <a href="/ingredientes/feta.html"<span style="font-weight: 400; font-size: 12px;">feta</a></span>
-            <a href="/ingredientes/flan.html"<span style="font-weight: 400; font-size: 12px;">flan</a></span>
-            <a href="/ingredientes/frambuesas.html"<span style="font-weight: 400; font-size: 12px;">frambuesas</a></span>
-            <a href="/ingredientes/fresa.html"<span style="font-weight: 400; font-size: 12px;">fresa</a></span>
-            <a href="/ingredientes/fresas.html"<span style="font-weight: 400; font-size: 18px;">fresas</a></span>
-            <a href="/ingredientes/frutos rojos.html"<span style="font-weight: 400; font-size: 12px;">frutos rojos</a></span>
-            <a href="/ingredientes/galletas.html"<span style="font-weight: 400; font-size: 20px;">galletas</a></span>
-            <a href="/ingredientes/gambas.html"<span style="font-weight: 400; font-size: 18px;">gambas</a></span>
-            <a href="/ingredientes/garbanzos.html"<span style="font-weight: 400; font-size: 18px;">garbanzos</a></span>
-            <a href="/ingredientes/gelatina.html"<span style="font-weight: 400; font-size: 12px;">gelatina</a></span>
-            <a href="/ingredientes/gorgonzola.html"<span style="font-weight: 400; font-size: 15px;">gorgonzola</a></span>
-            <a href="/ingredientes/granada.html"<span style="font-weight: 400; font-size: 12px;">granada</a></span>
-            <a href="/ingredientes/grosellas.html"<span style="font-weight: 400; font-size: 12px;">grosellas</a></span>
-            <a href="/ingredientes/guisantes.html"<span style="font-weight: 400; font-size: 17px;">guisantes</a></span>
-            <a href="/ingredientes/hamburguesa.html"<span style="font-weight: 400; font-size: 12px;">hamburguesa</a></span>
-            <a href="/ingredientes/hamburguesas.html"<span style="font-weight: 400; font-size: 12px;">hamburguesas</a></span>
-            <a href="/ingredientes/harina.html"<span style="font-weight: 400; font-size: 12px;">harina</a></span>
-            <a href="/ingredientes/harina de espelta.html"<span style="font-weight: 400; font-size: 12px;">harina de espelta</a></span>
-            <a href="/ingredientes/harina de fuerza.html"<span style="font-weight: 400; font-size: 15px;">harina de fuerza</a></span>
-            <a href="/ingredientes/harina integral.html"<span style="font-weight: 400; font-size: 20px;">harina integral</a></span>
-            <a href="/ingredientes/hierbabuena.html"<span style="font-weight: 400; font-size: 20px;">hierbabuena</a></span>
-            <a href="/ingredientes/hinojo.html"<span style="font-weight: 400; font-size: 17px;">hinojo</a></span>
-            <a href="/ingredientes/huevas.html"<span style="font-weight: 400; font-size: 12px;">huevas</a></span>
-            <a href="/ingredientes/huevo.html"<span style="font-weight: 400; font-size: 15px;">huevo</a></span>
-            <a href="/ingredientes/huevos.html"<span style="font-weight: 400; font-size: 17px;">huevos</a></span>
-            <a href="/ingredientes/hummus.html"<span style="font-weight: 400; font-size: 15px;">hummus</a></span>
-            <a href="/ingredientes/jamón.html"<span style="font-weight: 400; font-size: 15px;">jamón</a></span>
-            <a href="/ingredientes/jengibre.html"<span style="font-weight: 400; font-size: 18px;">jengibre</a></span>
-            <a href="/ingredientes/judias rojas.html"<span style="font-weight: 400; font-size: 12px;">judias rojas</a></span>
-            <a href="/ingredientes/judias verdes.html"<span style="font-weight: 400; font-size: 12px;">judias verdes</a></span>
-            <a href="/ingredientes/judiones.html"<span style="font-weight: 400; font-size: 12px;">judiones</a></span>
-            <a href="/ingredientes/kikos.html"<span style="font-weight: 400; font-size: 12px;">kikos</a></span>
-            <a href="/ingredientes/kumquats.html"<span style="font-weight: 400; font-size: 12px;">kumquats</a></span>
-            <a href="/ingredientes/lassi.html"<span style="font-weight: 400; font-size: 12px;">lassi</a></span>
-            <a href="/ingredientes/leche.html"<span style="font-weight: 400; font-size: 12px;">leche</a></span>
-            <a href="/ingredientes/leche condensada.html"<span style="font-weight: 400; font-size: 12px;">leche condensada</a></span>
-            <a href="/ingredientes/leche de coco.html"<span style="font-weight: 400; font-size: 15px;">leche de coco</a></span>
-            <a href="/ingredientes/leche evaporada.html"<span style="font-weight: 400; font-size: 15px;">leche evaporada</a></span>
-            <a href="/ingredientes/lentejas.html"<span style="font-weight: 400; font-size: 17px;">lentejas</a></span>
-            <a href="/ingredientes/lima.html"<span style="font-weight: 400; font-size: 17px;">lima</a></span>
-            <a href="/ingredientes/limon.html"<span style="font-weight: 400; font-size: 20px;">limon</a></span>
-            <a href="/ingredientes/lombarda.html"<span style="font-weight: 400; font-size: 12px;">lombarda</a></span>
-            <a href="/ingredientes/lubina.html"<span style="font-weight: 400; font-size: 12px;">lubina</a></span>
-            <a href="/ingredientes/macarrones.html"<span style="font-weight: 400; font-size: 12px;">macarrones</a></span>
-            <a href="/ingredientes/magdalenas.html"<span style="font-weight: 400; font-size: 12px;">magdalenas</a></span>
-            <a href="/ingredientes/maiz.html"<span style="font-weight: 400; font-size: 12px;">maiz</a></span>
-            <a href="/ingredientes/mango.html"<span style="font-weight: 400; font-size: 12px;">mango</a></span>
-            <a href="/ingredientes/manzana.html"<span style="font-weight: 400; font-size: 21px;">manzana</a></span>
-            <a href="/ingredientes/masa brisa.html"<span style="font-weight: 400; font-size: 15px;">masa brisa</a></span>
-            <a href="/ingredientes/mascarpone.html"<span style="font-weight: 400; font-size: 15px;">mascarpone</a></span>
-            <a href="/ingredientes/mejillones.html"<span style="font-weight: 400; font-size: 12px;">mejillones</a></span>
-            <a href="/ingredientes/menta.html"<span style="font-weight: 400; font-size: 17px;">menta</a></span>
-            <a href="/ingredientes/merluza.html"<span style="font-weight: 400; font-size: 12px;">merluza</a></span>
-            <a href="/ingredientes/miel.html"<span style="font-weight: 400; font-size: 17px;">miel</a></span>
-            <a href="/ingredientes/mijo.html"<span style="font-weight: 400; font-size: 12px;">mijo</a></span>
-            <a href="/ingredientes/moras.html"<span style="font-weight: 400; font-size: 12px;">moras</a></span>
-            <a href="/ingredientes/mostaza.html"<span style="font-weight: 400; font-size: 12px;">mostaza</a></span>
-            <a href="/ingredientes/naranja.html"<span style="font-weight: 400; font-size: 17px;">naranja</a></span>
-            <a href="/ingredientes/naranjitas chinas.html"<span style="font-weight: 400; font-size: 12px;">naranjitas chinas</a></span>
-            <a href="/ingredientes/nata.html"<span style="font-weight: 400; font-size: 21px;">nata</a></span>
-            <a href="/ingredientes/nueces.html"<span style="font-weight: 400; font-size: 17px;">nueces</a></span>
-            <a href="/ingredientes/nuez moscada.html"<span style="font-weight: 400; font-size: 12px;">nuez moscada</a></span>
-            <a href="/ingredientes/olivas.html"<span style="font-weight: 400; font-size: 12px;">olivas</a></span>
-            <a href="/ingredientes/pan.html"<span style="font-weight: 400; font-size: 15px;">pan</a></span>
-            <a href="/ingredientes/pan de molde.html"<span style="font-weight: 400; font-size: 12px;">pan de molde</a></span>
-            <a href="/ingredientes/panko.html"<span style="font-weight: 400; font-size: 12px;">panko</a></span>
-            <a href="/ingredientes/pannacotta.html"<span style="font-weight: 400; font-size: 12px;">pannacotta</a></span>
-            <a href="/ingredientes/parmesano.html"<span style="font-weight: 400; font-size: 15px;">parmesano</a></span>
-            <a href="/ingredientes/pasta.html"<span style="font-weight: 400; font-size: 20px;">pasta</a></span>
-            <a href="/ingredientes/patata.html"<span style="font-weight: 400; font-size: 12px;">patata</a></span>
-            <a href="/ingredientes/patatas.html"<span style="font-weight: 400; font-size: 22px;">patatas</a></span>
-            <a href="/ingredientes/pepino.html"<span style="font-weight: 400; font-size: 12px;">pepino</a></span>
-            <a href="/ingredientes/pera.html"<span style="font-weight: 400; font-size: 12px;">pera</a></span>
-            <a href="/ingredientes/pimentón.html"<span style="font-weight: 400; font-size: 17px;">pimentón</a></span>
-            <a href="/ingredientes/pimienta.html"<span style="font-weight: 400; font-size: 12px;">pimienta</a></span>
-            <a href="/ingredientes/pimientos.html"<span style="font-weight: 400; font-size: 15px;">pimientos</a></span>
-            <a href="/ingredientes/pimientos choriceros.html"<span style="font-weight: 400; font-size: 15px;">pimientos choriceros</a></span>
-            <a href="/ingredientes/pipas.html"<span style="font-weight: 400; font-size: 12px;">pipas</a></span>
-            <a href="/ingredientes/piquillos.html"<span style="font-weight: 400; font-size: 12px;">piquillos</a></span>
-            <a href="/ingredientes/piña.html"<span style="font-weight: 400; font-size: 17px;">piña</a></span>
-            <a href="/ingredientes/platano.html"<span style="font-weight: 400; font-size: 17px;">platano</a></span>
-            <a href="/ingredientes/pollo.html"<span style="font-weight: 400; font-size: 20px;">pollo</a></span>
-            <a href="/ingredientes/puerro.html"<span style="font-weight: 400; font-size: 12px;">puerro</a></span>
-            <a href="/ingredientes/puerros.html"<span style="font-weight: 400; font-size: 12px;">puerros</a></span>
-            <a href="/ingredientes/pulpo.html"<span style="font-weight: 400; font-size: 12px;">pulpo</a></span>
-            <a href="/ingredientes/queso.html"<span style="font-weight: 400; font-size: 20px;">queso</a></span>
-            <a href="/ingredientes/queso blanco.html"<span style="font-weight: 400; font-size: 12px;">queso blanco</a></span>
-            <a href="/ingredientes/queso crema.html"<span style="font-weight: 400; font-size: 15px;">queso crema</a></span>
-            <a href="/ingredientes/queso gruyere.html"<span style="font-weight: 400; font-size: 12px;">queso gruyere</a></span>
-            <a href="/ingredientes/quinoa.html"<span style="font-weight: 400; font-size: 12px;">quinoa</a></span>
-            <a href="/ingredientes/rape.html"<span style="font-weight: 400; font-size: 12px;">rape</a></span>
-            <a href="/ingredientes/ras-al-hanout.html"<span style="font-weight: 400; font-size: 15px;">ras-al-hanout</a></span>
-            <a href="/ingredientes/redvelvet.html"<span style="font-weight: 400; font-size: 12px;">redvelvet</a></span>
-            <a href="/ingredientes/remolacha.html"<span style="font-weight: 400; font-size: 12px;">remolacha</a></span>
-            <a href="/ingredientes/repollo.html"<span style="font-weight: 400; font-size: 15px;">repollo</a></span>
-            <a href="/ingredientes/requeson.html"<span style="font-weight: 400; font-size: 17px;">requeson</a></span>
-            <a href="/ingredientes/rollitos.html"<span style="font-weight: 400; font-size: 12px;">rollitos</a></span>
-            <a href="/ingredientes/ron.html"<span style="font-weight: 400; font-size: 12px;">ron</a></span>
-            <a href="/ingredientes/roquefort.html"<span style="font-weight: 400; font-size: 12px;">roquefort</a></span>
-            <a href="/ingredientes/ruibarbo.html"<span style="font-weight: 400; font-size: 15px;">ruibarbo</a></span>
-            <a href="/ingredientes/salchichas.html"<span style="font-weight: 400; font-size: 12px;">salchichas</a></span>
-            <a href="/ingredientes/salmon.html"<span style="font-weight: 400; font-size: 15px;">salmon</a></span>
-            <a href="/ingredientes/salsa.html"<span style="font-weight: 400; font-size: 12px;">salsa</a></span>
-            <a href="/ingredientes/salsa de ostras.html"<span style="font-weight: 400; font-size: 12px;">salsa de ostras</a></span>
-            <a href="/ingredientes/salsa de soja.html"<span style="font-weight: 400; font-size: 12px;">salsa de soja</a></span>
-            <a href="/ingredientes/semillas.html"<span style="font-weight: 400; font-size: 12px;">semillas</a></span>
-            <a href="/ingredientes/semillas de amapola.html"<span style="font-weight: 400; font-size: 15px;">semillas de amapola</a></span>
-            <a href="/ingredientes/semolina.html"<span style="font-weight: 400; font-size: 12px;">semolina</a></span>
-            <a href="/ingredientes/sepia.html"<span style="font-weight: 400; font-size: 15px;">sepia</a></span>
-            <a href="/ingredientes/sesamo.html"<span style="font-weight: 400; font-size: 12px;">sesamo</a></span>
-            <a href="/ingredientes/setas.html"<span style="font-weight: 400; font-size: 21px;">setas</a></span>
-            <a href="/ingredientes/shiitake.html"<span style="font-weight: 400; font-size: 12px;">shiitake</a></span>
-            <a href="/ingredientes/sin azúcar.html"<span style="font-weight: 400; font-size: 12px;">sin azúcar</a></span>
-            <a href="/ingredientes/soja.html"<span style="font-weight: 400; font-size: 12px;">soja</a></span>
-            <a href="/ingredientes/solomillo.html"<span style="font-weight: 400; font-size: 17px;">solomillo</a></span>
-            <a href="/ingredientes/sémola.html"<span style="font-weight: 400; font-size: 12px;">sémola</a></span>
-            <a href="/ingredientes/tahine.html"<span style="font-weight: 400; font-size: 15px;">tahine</a></span>
-            <a href="/ingredientes/tahini.html"<span style="font-weight: 400; font-size: 12px;">tahini</a></span>
-            <a href="/ingredientes/tallarines.html"<span style="font-weight: 400; font-size: 12px;">tallarines</a></span>
-            <a href="/ingredientes/tartaletas.html"<span style="font-weight: 400; font-size: 12px;">tartaletas</a></span>
-            <a href="/ingredientes/tinta.html"<span style="font-weight: 400; font-size: 12px;">tinta</a></span>
-            <a href="/ingredientes/tomate.html"<span style="font-weight: 400; font-size: 21px;">tomate</a></span>
-            <a href="/ingredientes/tomate seco.html"<span style="font-weight: 400; font-size: 12px;">tomate seco</a></span>
-            <a href="/ingredientes/tomates.html"<span style="font-weight: 400; font-size: 12px;">tomates</a></span>
-            <a href="/ingredientes/tomillo.html"<span style="font-weight: 400; font-size: 12px;">tomillo</a></span>
-            <a href="/ingredientes/turron.html"<span style="font-weight: 400; font-size: 15px;">turron</a></span>
-            <a href="/ingredientes/vainilla.html"<span style="font-weight: 400; font-size: 12px;">vainilla</a></span>
-            <a href="/ingredientes/verano.html"<span style="font-weight: 400; font-size: 12px;">verano</a></span>
-            <a href="/ingredientes/verduras.html"<span style="font-weight: 400; font-size: 12px;">verduras</a></span>
-            <a href="/ingredientes/vinagre.html"<span style="font-weight: 400; font-size: 12px;">vinagre</a></span>
-            <a href="/ingredientes/yogur.html"<span style="font-weight: 400; font-size: 17px;">yogur</a></span>
-            <a href="/ingredientes/zanahoria.html"<span style="font-weight: 400; font-size: 20px;">zanahoria</a></span>
-        </div>
+<a href="../../../ingredientes/aceite%20de%20coco.html">              <span style="font-weight: 400; font-size: 12px;">aceite de coco</span>
+</a><a href="../../../ingredientes/aceite%20de%20oliva.html">              <span style="font-weight: 400; font-size: 12px;">aceite de oliva</span>
+</a><a href="../../../ingredientes/aceite%20de%20sesamo.html">              <span style="font-weight: 400; font-size: 15px;">aceite de sesamo</span>
+</a><a href="../../../ingredientes/aceitunas.html">              <span style="font-weight: 400; font-size: 12px;">aceitunas</span>
+</a><a href="../../../ingredientes/acelgas.html">              <span style="font-weight: 400; font-size: 12px;">acelgas</span>
+</a><a href="../../../ingredientes/aguacate.html">              <span style="font-weight: 400; font-size: 12px;">aguacate</span>
+</a><a href="../../../ingredientes/ajetes.html">              <span style="font-weight: 400; font-size: 12px;">ajetes</span>
+</a><a href="../../../ingredientes/ajo.html">              <span style="font-weight: 400; font-size: 17px;">ajo</span>
+</a><a href="../../../ingredientes/ajo%20negro.html">              <span style="font-weight: 400; font-size: 12px;">ajo negro</span>
+</a><a href="../../../ingredientes/ajos%20tiernos.html">              <span style="font-weight: 400; font-size: 12px;">ajos tiernos</span>
+</a><a href="../../../ingredientes/albaricoques.html">              <span style="font-weight: 400; font-size: 12px;">albaricoques</span>
+</a><a href="../../../ingredientes/albondigas.html">              <span style="font-weight: 400; font-size: 15px;">albondigas</span>
+</a><a href="../../../ingredientes/alcachofas.html">              <span style="font-weight: 400; font-size: 12px;">alcachofas</span>
+</a><a href="../../../ingredientes/alcaparras.html">              <span style="font-weight: 400; font-size: 12px;">alcaparras</span>
+</a><a href="../../../ingredientes/almendras.html">              <span style="font-weight: 400; font-size: 21px;">almendras</span>
+</a><a href="../../../ingredientes/alubias.html">              <span style="font-weight: 400; font-size: 12px;">alubias</span>
+</a><a href="../../../ingredientes/anacardos.html">              <span style="font-weight: 400; font-size: 12px;">anacardos</span>
+</a><a href="../../../ingredientes/an%C3%ADs.html">              <span style="font-weight: 400; font-size: 12px;">anís</span>
+</a><a href="../../../ingredientes/apio.html">              <span style="font-weight: 400; font-size: 12px;">apio</span>
+</a><a href="../../../ingredientes/arandanos.html">              <span style="font-weight: 400; font-size: 20px;">arandanos</span>
+</a><a href="../../../ingredientes/arepas.html">              <span style="font-weight: 400; font-size: 12px;">arepas</span>
+</a><a href="../../../ingredientes/arroz.html">              <span style="font-weight: 400; font-size: 22px;">arroz</span>
+</a><a href="../../../ingredientes/at%C3%BAn.html">              <span style="font-weight: 400; font-size: 12px;">atún</span>
+</a><a href="../../../ingredientes/avellanas.html">              <span style="font-weight: 400; font-size: 17px;">avellanas</span>
+</a><a href="../../../ingredientes/avena.html">              <span style="font-weight: 400; font-size: 15px;">avena</span>
+</a><a href="../../../ingredientes/azafran.html">              <span style="font-weight: 400; font-size: 12px;">azafran</span>
+</a><a href="../../../ingredientes/az%C3%BAcar.html">              <span style="font-weight: 400; font-size: 12px;">azúcar</span>
+</a><a href="../../../ingredientes/az%C3%BAcar%20moreno.html">              <span style="font-weight: 400; font-size: 12px;">azúcar moreno</span>
+</a><a href="../../../ingredientes/bacalao.html">              <span style="font-weight: 400; font-size: 18px;">bacalao</span>
+</a><a href="../../../ingredientes/bacon.html">              <span style="font-weight: 400; font-size: 15px;">bacon</span>
+</a><a href="../../../ingredientes/bechamel.html">              <span style="font-weight: 400; font-size: 15px;">bechamel</span>
+</a><a href="../../../ingredientes/berenjena.html">              <span style="font-weight: 400; font-size: 12px;">berenjena</span>
+</a><a href="../../../ingredientes/berenjenas.html">              <span style="font-weight: 400; font-size: 20px;">berenjenas</span>
+</a><a href="../../../ingredientes/boniato.html">              <span style="font-weight: 400; font-size: 17px;">boniato</span>
+</a><a href="../../../ingredientes/brocoli.html">              <span style="font-weight: 400; font-size: 12px;">brocoli</span>
+</a><a href="../../../ingredientes/brownie.html">              <span style="font-weight: 400; font-size: 12px;">brownie</span>
+</a><a href="../../../ingredientes/bundtcake.html">              <span style="font-weight: 400; font-size: 12px;">bundtcake</span>
+</a><a href="../../../ingredientes/butifarra.html">              <span style="font-weight: 400; font-size: 12px;">butifarra</span>
+</a><a href="../../../ingredientes/cacao.html">              <span style="font-weight: 400; font-size: 12px;">cacao</span>
+</a><a href="../../../ingredientes/cafe.html">              <span style="font-weight: 400; font-size: 12px;">cafe</span>
+</a><a href="../../../ingredientes/calabacin.html">              <span style="font-weight: 400; font-size: 20px;">calabacin</span>
+</a><a href="../../../ingredientes/calabaza.html">              <span style="font-weight: 400; font-size: 20px;">calabaza</span>
+</a><a href="../../../ingredientes/calamares.html">              <span style="font-weight: 400; font-size: 18px;">calamares</span>
+</a><a href="../../../ingredientes/canela.html">              <span style="font-weight: 400; font-size: 18px;">canela</span>
+</a><a href="../../../ingredientes/caramelo.html">              <span style="font-weight: 400; font-size: 12px;">caramelo</span>
+</a><a href="../../../ingredientes/cardamomo.html">              <span style="font-weight: 400; font-size: 12px;">cardamomo</span>
+</a><a href="../../../ingredientes/carne%20picada.html">              <span style="font-weight: 400; font-size: 18px;">carne picada</span>
+</a><a href="../../../ingredientes/cava.html">              <span style="font-weight: 400; font-size: 15px;">cava</span>
+</a><a href="../../../ingredientes/cayena.html">              <span style="font-weight: 400; font-size: 12px;">cayena</span>
+</a><a href="../../../ingredientes/cebolla.html">              <span style="font-weight: 400; font-size: 12px;">cebolla</span>
+</a><a href="../../../ingredientes/cerdo.html">              <span style="font-weight: 400; font-size: 17px;">cerdo</span>
+</a><a href="../../../ingredientes/cerezas.html">              <span style="font-weight: 400; font-size: 15px;">cerezas</span>
+</a><a href="../../../ingredientes/cerveza.html">              <span style="font-weight: 400; font-size: 15px;">cerveza</span>
+</a><a href="../../../ingredientes/cerveza%20negra.html">              <span style="font-weight: 400; font-size: 12px;">cerveza negra</span>
+</a><a href="../../../ingredientes/champi%C3%B1ones.html">              <span style="font-weight: 400; font-size: 20px;">champiñones</span>
+</a><a href="../../../ingredientes/chirlas.html">              <span style="font-weight: 400; font-size: 12px;">chirlas</span>
+</a><a href="../../../ingredientes/chocolate.html">              <span style="font-weight: 400; font-size: 24px;">chocolate</span>
+</a><a href="../../../ingredientes/chocolate%20blanco.html">              <span style="font-weight: 400; font-size: 12px;">chocolate blanco</span>
+</a><a href="../../../ingredientes/chorizo.html">              <span style="font-weight: 400; font-size: 12px;">chorizo</span>
+</a><a href="../../../ingredientes/cilantro.html">              <span style="font-weight: 400; font-size: 15px;">cilantro</span>
+</a><a href="../../../ingredientes/clavo.html">              <span style="font-weight: 400; font-size: 12px;">clavo</span>
+</a><a href="../../../ingredientes/coca.html">              <span style="font-weight: 400; font-size: 12px;">coca</span>
+</a><a href="../../../ingredientes/coco.html">              <span style="font-weight: 400; font-size: 17px;">coco</span>
+</a><a href="../../../ingredientes/coliflor.html">              <span style="font-weight: 400; font-size: 18px;">coliflor</span>
+</a><a href="../../../ingredientes/comino.html">              <span style="font-weight: 400; font-size: 12px;">comino</span>
+</a><a href="../../../ingredientes/cookies.html">              <span style="font-weight: 400; font-size: 12px;">cookies</span>
+</a><a href="../../../ingredientes/copos%20de%20avena.html">              <span style="font-weight: 400; font-size: 12px;">copos de avena</span>
+</a><a href="../../../ingredientes/crema%20de%20cacahuetes.html">              <span style="font-weight: 400; font-size: 12px;">crema de cacahuetes</span>
+</a><a href="../../../ingredientes/croquetas.html">              <span style="font-weight: 400; font-size: 12px;">croquetas</span>
+</a><a href="../../../ingredientes/curcuma.html">              <span style="font-weight: 400; font-size: 15px;">curcuma</span>
+</a><a href="../../../ingredientes/curry.html">              <span style="font-weight: 400; font-size: 17px;">curry</span>
+</a><a href="../../../ingredientes/cusc%C3%BAs.html">              <span style="font-weight: 400; font-size: 12px;">cuscús</span>
+</a><a href="../../../ingredientes/dulces%20saludables.html">              <span style="font-weight: 400; font-size: 12px;">dulces saludables</span>
+</a><a href="../../../ingredientes/d%C3%A1tiles.html">              <span style="font-weight: 400; font-size: 17px;">dátiles</span>
+</a><a href="../../../ingredientes/escabeche.html">              <span style="font-weight: 400; font-size: 12px;">escabeche</span>
+</a><a href="../../../ingredientes/espinacas.html">              <span style="font-weight: 400; font-size: 20px;">espinacas</span>
+</a><a href="../../../ingredientes/esp%C3%A1rragos.html">              <span style="font-weight: 400; font-size: 12px;">espárragos</span>
+</a><a href="../../../ingredientes/feta.html">              <span style="font-weight: 400; font-size: 12px;">feta</span>
+</a><a href="../../../ingredientes/flan.html">              <span style="font-weight: 400; font-size: 12px;">flan</span>
+</a><a href="../../../ingredientes/frambuesas.html">              <span style="font-weight: 400; font-size: 12px;">frambuesas</span>
+</a><a href="../../../ingredientes/fresa.html">              <span style="font-weight: 400; font-size: 12px;">fresa</span>
+</a><a href="../../../ingredientes/fresas.html">              <span style="font-weight: 400; font-size: 18px;">fresas</span>
+</a><a href="../../../ingredientes/frutos%20rojos.html">              <span style="font-weight: 400; font-size: 12px;">frutos rojos</span>
+</a><a href="../../../ingredientes/galletas.html">              <span style="font-weight: 400; font-size: 20px;">galletas</span>
+</a><a href="../../../ingredientes/gambas.html">              <span style="font-weight: 400; font-size: 18px;">gambas</span>
+</a><a href="../../../ingredientes/garbanzos.html">              <span style="font-weight: 400; font-size: 18px;">garbanzos</span>
+</a><a href="../../../ingredientes/gelatina.html">              <span style="font-weight: 400; font-size: 12px;">gelatina</span>
+</a><a href="../../../ingredientes/gorgonzola.html">              <span style="font-weight: 400; font-size: 15px;">gorgonzola</span>
+</a><a href="../../../ingredientes/granada.html">              <span style="font-weight: 400; font-size: 12px;">granada</span>
+</a><a href="../../../ingredientes/grosellas.html">              <span style="font-weight: 400; font-size: 12px;">grosellas</span>
+</a><a href="../../../ingredientes/guisantes.html">              <span style="font-weight: 400; font-size: 17px;">guisantes</span>
+</a><a href="../../../ingredientes/hamburguesa.html">              <span style="font-weight: 400; font-size: 12px;">hamburguesa</span>
+</a><a href="../../../ingredientes/hamburguesas.html">              <span style="font-weight: 400; font-size: 12px;">hamburguesas</span>
+</a><a href="../../../ingredientes/harina.html">              <span style="font-weight: 400; font-size: 12px;">harina</span>
+</a><a href="../../../ingredientes/harina%20de%20espelta.html">              <span style="font-weight: 400; font-size: 12px;">harina de espelta</span>
+</a><a href="../../../ingredientes/harina%20de%20fuerza.html">              <span style="font-weight: 400; font-size: 15px;">harina de fuerza</span>
+</a><a href="../../../ingredientes/harina%20integral.html">              <span style="font-weight: 400; font-size: 20px;">harina integral</span>
+</a><a href="../../../ingredientes/hierbabuena.html">              <span style="font-weight: 400; font-size: 20px;">hierbabuena</span>
+</a><a href="../../../ingredientes/hinojo.html">              <span style="font-weight: 400; font-size: 17px;">hinojo</span>
+</a><a href="../../../ingredientes/huevas.html">              <span style="font-weight: 400; font-size: 12px;">huevas</span>
+</a><a href="../../../ingredientes/huevo.html">              <span style="font-weight: 400; font-size: 15px;">huevo</span>
+</a><a href="../../../ingredientes/huevos.html">              <span style="font-weight: 400; font-size: 17px;">huevos</span>
+</a><a href="../../../ingredientes/hummus.html">              <span style="font-weight: 400; font-size: 15px;">hummus</span>
+</a><a href="../../../ingredientes/jam%C3%B3n.html">              <span style="font-weight: 400; font-size: 15px;">jamón</span>
+</a><a href="../../../ingredientes/jengibre.html">              <span style="font-weight: 400; font-size: 18px;">jengibre</span>
+</a><a href="../../../ingredientes/judias%20rojas.html">              <span style="font-weight: 400; font-size: 12px;">judias rojas</span>
+</a><a href="../../../ingredientes/judias%20verdes.html">              <span style="font-weight: 400; font-size: 12px;">judias verdes</span>
+</a><a href="../../../ingredientes/judiones.html">              <span style="font-weight: 400; font-size: 12px;">judiones</span>
+</a><a href="../../../ingredientes/kikos.html">              <span style="font-weight: 400; font-size: 12px;">kikos</span>
+</a><a href="../../../ingredientes/kumquats.html">              <span style="font-weight: 400; font-size: 12px;">kumquats</span>
+</a><a href="../../../ingredientes/lassi.html">              <span style="font-weight: 400; font-size: 12px;">lassi</span>
+</a><a href="../../../ingredientes/leche.html">              <span style="font-weight: 400; font-size: 12px;">leche</span>
+</a><a href="../../../ingredientes/leche%20condensada.html">              <span style="font-weight: 400; font-size: 12px;">leche condensada</span>
+</a><a href="../../../ingredientes/leche%20de%20coco.html">              <span style="font-weight: 400; font-size: 15px;">leche de coco</span>
+</a><a href="../../../ingredientes/leche%20evaporada.html">              <span style="font-weight: 400; font-size: 15px;">leche evaporada</span>
+</a><a href="../../../ingredientes/lentejas.html">              <span style="font-weight: 400; font-size: 17px;">lentejas</span>
+</a><a href="../../../ingredientes/lima.html">              <span style="font-weight: 400; font-size: 17px;">lima</span>
+</a><a href="../../../ingredientes/limon.html">              <span style="font-weight: 400; font-size: 20px;">limon</span>
+</a><a href="../../../ingredientes/lombarda.html">              <span style="font-weight: 400; font-size: 12px;">lombarda</span>
+</a><a href="../../../ingredientes/lubina.html">              <span style="font-weight: 400; font-size: 12px;">lubina</span>
+</a><a href="../../../ingredientes/macarrones.html">              <span style="font-weight: 400; font-size: 12px;">macarrones</span>
+</a><a href="../../../ingredientes/magdalenas.html">              <span style="font-weight: 400; font-size: 12px;">magdalenas</span>
+</a><a href="../../../ingredientes/maiz.html">              <span style="font-weight: 400; font-size: 12px;">maiz</span>
+</a><a href="../../../ingredientes/mango.html">              <span style="font-weight: 400; font-size: 12px;">mango</span>
+</a><a href="../../../ingredientes/manzana.html">              <span style="font-weight: 400; font-size: 21px;">manzana</span>
+</a><a href="../../../ingredientes/masa%20brisa.html">              <span style="font-weight: 400; font-size: 15px;">masa brisa</span>
+</a><a href="../../../ingredientes/mascarpone.html">              <span style="font-weight: 400; font-size: 15px;">mascarpone</span>
+</a><a href="../../../ingredientes/mejillones.html">              <span style="font-weight: 400; font-size: 12px;">mejillones</span>
+</a><a href="../../../ingredientes/menta.html">              <span style="font-weight: 400; font-size: 17px;">menta</span>
+</a><a href="../../../ingredientes/merluza.html">              <span style="font-weight: 400; font-size: 12px;">merluza</span>
+</a><a href="../../../ingredientes/miel.html">              <span style="font-weight: 400; font-size: 17px;">miel</span>
+</a><a href="../../../ingredientes/mijo.html">              <span style="font-weight: 400; font-size: 12px;">mijo</span>
+</a><a href="../../../ingredientes/moras.html">              <span style="font-weight: 400; font-size: 12px;">moras</span>
+</a><a href="../../../ingredientes/mostaza.html">              <span style="font-weight: 400; font-size: 12px;">mostaza</span>
+</a><a href="../../../ingredientes/naranja.html">              <span style="font-weight: 400; font-size: 17px;">naranja</span>
+</a><a href="../../../ingredientes/naranjitas%20chinas.html">              <span style="font-weight: 400; font-size: 12px;">naranjitas chinas</span>
+</a><a href="../../../ingredientes/nata.html">              <span style="font-weight: 400; font-size: 21px;">nata</span>
+</a><a href="../../../ingredientes/nueces.html">              <span style="font-weight: 400; font-size: 17px;">nueces</span>
+</a><a href="../../../ingredientes/nuez%20moscada.html">              <span style="font-weight: 400; font-size: 12px;">nuez moscada</span>
+</a><a href="../../../ingredientes/olivas.html">              <span style="font-weight: 400; font-size: 12px;">olivas</span>
+</a><a href="../../../ingredientes/pan.html">              <span style="font-weight: 400; font-size: 15px;">pan</span>
+</a><a href="../../../ingredientes/pan%20de%20molde.html">              <span style="font-weight: 400; font-size: 12px;">pan de molde</span>
+</a><a href="../../../ingredientes/panko.html">              <span style="font-weight: 400; font-size: 12px;">panko</span>
+</a><a href="../../../ingredientes/pannacotta.html">              <span style="font-weight: 400; font-size: 12px;">pannacotta</span>
+</a><a href="../../../ingredientes/parmesano.html">              <span style="font-weight: 400; font-size: 15px;">parmesano</span>
+</a><a href="../../../ingredientes/pasta.html">              <span style="font-weight: 400; font-size: 20px;">pasta</span>
+</a><a href="../../../ingredientes/patata.html">              <span style="font-weight: 400; font-size: 12px;">patata</span>
+</a><a href="../../../ingredientes/patatas.html">              <span style="font-weight: 400; font-size: 22px;">patatas</span>
+</a><a href="../../../ingredientes/pepino.html">              <span style="font-weight: 400; font-size: 12px;">pepino</span>
+</a><a href="../../../ingredientes/pera.html">              <span style="font-weight: 400; font-size: 12px;">pera</span>
+</a><a href="../../../ingredientes/piment%C3%B3n.html">              <span style="font-weight: 400; font-size: 17px;">pimentón</span>
+</a><a href="../../../ingredientes/pimienta.html">              <span style="font-weight: 400; font-size: 12px;">pimienta</span>
+</a><a href="../../../ingredientes/pimientos.html">              <span style="font-weight: 400; font-size: 15px;">pimientos</span>
+</a><a href="../../../ingredientes/pimientos%20choriceros.html">              <span style="font-weight: 400; font-size: 15px;">pimientos choriceros</span>
+</a><a href="../../../ingredientes/pipas.html">              <span style="font-weight: 400; font-size: 12px;">pipas</span>
+</a><a href="../../../ingredientes/piquillos.html">              <span style="font-weight: 400; font-size: 12px;">piquillos</span>
+</a><a href="../../../ingredientes/pi%C3%B1a.html">              <span style="font-weight: 400; font-size: 17px;">piña</span>
+</a><a href="../../../ingredientes/platano.html">              <span style="font-weight: 400; font-size: 17px;">platano</span>
+</a><a href="../../../ingredientes/pollo.html">              <span style="font-weight: 400; font-size: 20px;">pollo</span>
+</a><a href="../../../ingredientes/puerro.html">              <span style="font-weight: 400; font-size: 12px;">puerro</span>
+</a><a href="../../../ingredientes/puerros.html">              <span style="font-weight: 400; font-size: 12px;">puerros</span>
+</a><a href="../../../ingredientes/pulpo.html">              <span style="font-weight: 400; font-size: 12px;">pulpo</span>
+</a><a href="../../../ingredientes/queso.html">              <span style="font-weight: 400; font-size: 20px;">queso</span>
+</a><a href="../../../ingredientes/queso%20blanco.html">              <span style="font-weight: 400; font-size: 12px;">queso blanco</span>
+</a><a href="../../../ingredientes/queso%20crema.html">              <span style="font-weight: 400; font-size: 15px;">queso crema</span>
+</a><a href="../../../ingredientes/queso%20gruyere.html">              <span style="font-weight: 400; font-size: 12px;">queso gruyere</span>
+</a><a href="../../../ingredientes/quinoa.html">              <span style="font-weight: 400; font-size: 12px;">quinoa</span>
+</a><a href="../../../ingredientes/rape.html">              <span style="font-weight: 400; font-size: 12px;">rape</span>
+</a><a href="../../../ingredientes/ras-al-hanout.html">              <span style="font-weight: 400; font-size: 15px;">ras-al-hanout</span>
+</a><a href="../../../ingredientes/redvelvet.html">              <span style="font-weight: 400; font-size: 12px;">redvelvet</span>
+</a><a href="../../../ingredientes/remolacha.html">              <span style="font-weight: 400; font-size: 12px;">remolacha</span>
+</a><a href="../../../ingredientes/repollo.html">              <span style="font-weight: 400; font-size: 15px;">repollo</span>
+</a><a href="../../../ingredientes/requeson.html">              <span style="font-weight: 400; font-size: 17px;">requeson</span>
+</a><a href="../../../ingredientes/rollitos.html">              <span style="font-weight: 400; font-size: 12px;">rollitos</span>
+</a><a href="../../../ingredientes/ron.html">              <span style="font-weight: 400; font-size: 12px;">ron</span>
+</a><a href="../../../ingredientes/roquefort.html">              <span style="font-weight: 400; font-size: 12px;">roquefort</span>
+</a><a href="../../../ingredientes/ruibarbo.html">              <span style="font-weight: 400; font-size: 15px;">ruibarbo</span>
+</a><a href="../../../ingredientes/salchichas.html">              <span style="font-weight: 400; font-size: 12px;">salchichas</span>
+</a><a href="../../../ingredientes/salmon.html">              <span style="font-weight: 400; font-size: 15px;">salmon</span>
+</a><a href="../../../ingredientes/salsa.html">              <span style="font-weight: 400; font-size: 12px;">salsa</span>
+</a><a href="../../../ingredientes/salsa%20de%20ostras.html">              <span style="font-weight: 400; font-size: 12px;">salsa de ostras</span>
+</a><a href="../../../ingredientes/salsa%20de%20soja.html">              <span style="font-weight: 400; font-size: 12px;">salsa de soja</span>
+</a><a href="../../../ingredientes/semillas.html">              <span style="font-weight: 400; font-size: 12px;">semillas</span>
+</a><a href="../../../ingredientes/semillas%20de%20amapola.html">              <span style="font-weight: 400; font-size: 15px;">semillas de amapola</span>
+</a><a href="../../../ingredientes/semolina.html">              <span style="font-weight: 400; font-size: 12px;">semolina</span>
+</a><a href="../../../ingredientes/sepia.html">              <span style="font-weight: 400; font-size: 15px;">sepia</span>
+</a><a href="../../../ingredientes/sesamo.html">              <span style="font-weight: 400; font-size: 12px;">sesamo</span>
+</a><a href="../../../ingredientes/setas.html">              <span style="font-weight: 400; font-size: 21px;">setas</span>
+</a><a href="../../../ingredientes/shiitake.html">              <span style="font-weight: 400; font-size: 12px;">shiitake</span>
+</a><a href="../../../ingredientes/sin%20az%C3%BAcar.html">              <span style="font-weight: 400; font-size: 12px;">sin azúcar</span>
+</a><a href="../../../ingredientes/soja.html">              <span style="font-weight: 400; font-size: 12px;">soja</span>
+</a><a href="../../../ingredientes/solomillo.html">              <span style="font-weight: 400; font-size: 17px;">solomillo</span>
+</a><a href="../../../ingredientes/s%C3%A9mola.html">              <span style="font-weight: 400; font-size: 12px;">sémola</span>
+</a><a href="../../../ingredientes/tahine.html">              <span style="font-weight: 400; font-size: 15px;">tahine</span>
+</a><a href="../../../ingredientes/tahini.html">              <span style="font-weight: 400; font-size: 12px;">tahini</span>
+</a><a href="../../../ingredientes/tallarines.html">              <span style="font-weight: 400; font-size: 12px;">tallarines</span>
+</a><a href="../../../ingredientes/tartaletas.html">              <span style="font-weight: 400; font-size: 12px;">tartaletas</span>
+</a><a href="../../../ingredientes/tinta.html">              <span style="font-weight: 400; font-size: 12px;">tinta</span>
+</a><a href="../../../ingredientes/tomate.html">              <span style="font-weight: 400; font-size: 21px;">tomate</span>
+</a><a href="../../../ingredientes/tomate%20seco.html">              <span style="font-weight: 400; font-size: 12px;">tomate seco</span>
+</a><a href="../../../ingredientes/tomates.html">              <span style="font-weight: 400; font-size: 12px;">tomates</span>
+</a><a href="../../../ingredientes/tomillo.html">              <span style="font-weight: 400; font-size: 12px;">tomillo</span>
+</a><a href="../../../ingredientes/turron.html">              <span style="font-weight: 400; font-size: 15px;">turron</span>
+</a><a href="../../../ingredientes/vainilla.html">              <span style="font-weight: 400; font-size: 12px;">vainilla</span>
+</a><a href="../../../ingredientes/verano.html">              <span style="font-weight: 400; font-size: 12px;">verano</span>
+</a><a href="../../../ingredientes/verduras.html">              <span style="font-weight: 400; font-size: 12px;">verduras</span>
+</a><a href="../../../ingredientes/vinagre.html">              <span style="font-weight: 400; font-size: 12px;">vinagre</span>
+</a><a href="../../../ingredientes/yogur.html">              <span style="font-weight: 400; font-size: 17px;">yogur</span>
+</a><a href="../../../ingredientes/zanahoria.html">              <span style="font-weight: 400; font-size: 20px;">zanahoria</span>
+</a>        </div>
       </aside>
     </div>
 
