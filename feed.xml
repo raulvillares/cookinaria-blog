@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2023-07-15T02:00:00+02:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Merluza a baja temperatura con pesto de guisantes</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2023/07/15/merluza-a-baja-temperatura-con-pesto-de-guisantes.html"/>
+    <id>http://blog.url.com/blog/2023/07/15/merluza-a-baja-temperatura-con-pesto-de-guisantes.html</id>
+    <published>2023-07-15T02:00:00+02:00</published>
+    <updated>2024-02-22T05:48:59+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Como compartí hace poco por &lt;a href="https://www.instagram.com/cookinaria/"&gt;IG&lt;/a&gt; tenemos en casa el nuevo modelo de Mycook, la &lt;a href="https://www.mycooknext.com/"&gt;MycookNext&lt;/a&gt; que entre otras muchas novedades incorpora un nuevo modo de cocción a baja temperatura, que estaba deseando probar. Me he inspirado en la famosa &lt;a href="https://twitter.com/CanRocaCeller/status/992851452027719680?lang=en"&gt;«Merluza en salsa verde»&lt;/a&gt; de El Celler de Can Roca y el resultado ha sido fantástico.&lt;/p&gt;
+
+&lt;p&gt;El modo de cocción a baja temperatura permite mantener el aceite a una temperatura constante y confitar el pescado con un resultado exquisito. Para darle un aroma adicional he confitado también los ajos y las aceitunas al mismo tiempo, y he aprovechado el calor de la cocción para cocinar los guisantes.&lt;/p&gt;
+
+&lt;p&gt;Una vez confitada la merluza sólo nos queda triturar los guisantes con el resto de ingredientes y parte del aceite de confitar el pescado, para obtener una salsa pesto original y deliciosa para acompañar la merluza.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Nuevo libro de recetas «Cocina para todos con Mycook»</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2022/10/16/nuevo-libro-recetas.html"/>
+    <id>http://blog.url.com/blog/2022/10/16/nuevo-libro-recetas.html</id>
+    <published>2022-10-16T02:00:00+02:00</published>
+    <updated>2024-01-27T11:21:56+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Me hace súper feliz compartir este notición: En poco más de 2 semanas llegará a las librerías el primer libro de Cookinaria!!! «Cocina para Todos con Mycook»&lt;/p&gt;
+
+&lt;p&gt;Una colección de casi 100 recetas para sacarle todo el partido a tu robot Mycook&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Recetas de todo tipo y para todas las ocasiones, ya sea una celebración o el menú diario en casa&lt;/li&gt;
+  &lt;li&gt;Recetas sencillas pero con algún toque diferente que las hace especiales, como a mí me gusta!&lt;/li&gt;
+  &lt;li&gt;Con instrucciones claras paso a paso para que te salga siempre, seguro!&lt;/li&gt;
+  &lt;li&gt;Trucos y consejos para que te quede perfecto&lt;/li&gt;
+  &lt;li&gt;Fotos bonitas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si quieres hacerte una idea de las recetas que vas a encontrar en el libro, puedes suscribirte a la lista de correo y te enviaré un mini-ebook con 3 recetas exclusivas (que no están en el libro) totalmente gratis! Puedes encontrar todos los detalles en www.libromycook.com&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Galettes bretonas</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2021/04/05/galettes-bretonas.html"/>
+    <id>http://blog.url.com/blog/2021/04/05/galettes-bretonas.html</id>
+    <published>2021-04-05T02:00:00+02:00</published>
+    <updated>2024-02-22T05:47:44+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Las &lt;strong&gt;Galettes Bretonas&lt;/strong&gt; son una especie de crêpes saladas típicas de la región francesa de Bretaña y Normandía, que se caracterizan sobre todo por hacerse con trigo sarraceno, que en realidad no es trigo, sino un pseudo-cereal que no tiene gluten, por tanto apto para celiacos.&lt;/p&gt;
+
+&lt;p&gt;Se trata de una receta súper sencilla pero muy resultona, perfecta para comer, cenar o incluso un desayuno fuerte de fin de semana. En realidad puedes rellenarla con lo que te apetezca, esta receta que os explico es la de la galette más típica que se la conoce como «Galette completa», y lleva queso, huevo y jamón. Igualmente es muy típica la de salchichas «andouilles» francesas, o panceta. También quedan riquísimas en versión veggie con unas espinacas baby y unos champiñones previamente salteados, mmm! El único secreto para que te queden perfectas es utilizar una buena sartén anti-adherente. Si te animas a probarlas puedes compartir el resultado en redes sociales etiquetándome para que pueda verlo.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Bizcocho de turrón</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2020/12/23/bizcocho-de-turron.html"/>
+    <id>http://blog.url.com/blog/2020/12/23/bizcocho-de-turron.html</id>
+    <published>2020-12-23T01:00:00+01:00</published>
+    <updated>2024-02-08T22:24:50+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Este &lt;strong&gt;bizcocho de turrón&lt;/strong&gt; no te puede faltar en casa esta navidad, está esponjosísimo y tremendo de bueno!La receta lleva claras montadas a punto de nieve, que es algo que siempre le da una esponjosidad extra a los bizcochos, y muchísimo sabor y aroma con el turrón y la ralladura de naranja, que combinan genial.&lt;/p&gt;
+
+&lt;p&gt;He utilizado un &lt;strong&gt;molde de silicona&lt;/strong&gt; que tiene una forma en espiral preciosa. Los moldes de silicona no son mis preferidos, creo que los bizcochos quedan mejor en los moldes de aluminio, cogen temperatura y caramelizan mucho mejor el exterior. En cambio a la hora de desmoldar la silicona es una bendición porque nunca se pega!&lt;/p&gt;
+
+&lt;p&gt;Encontrarás la &lt;strong&gt;receta en versión tradicional&lt;/strong&gt; , y también &lt;strong&gt;receta adaptada al robot Mycook&lt;/strong&gt; o similar. Aprovecho mi paso por el blog para desearos a tod@s unas muy &lt;strong&gt;felices fiestas,&lt;/strong&gt; pasadlo lo mejor posible en estas circunstancias especiales, disfrutad mucho de quienes tengáis cerca y confiemos en que muy pronto todo esto quede atrás. &lt;strong&gt;Un abrazo!&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Tacos veggie</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2020/08/17/tacos-veggie.html"/>
+    <id>http://blog.url.com/blog/2020/08/17/tacos-veggie.html</id>
+    <published>2020-08-17T02:00:00+02:00</published>
+    <updated>2024-02-06T21:56:02+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Tienes que probar estos &lt;strong&gt;Tacos Veggie&lt;/strong&gt; sin carne, y vas a alucinar de lo buenísimos que están, súper sanos, súper saludables y súper fáciles de hacer.Por fin he encontrado el momento de actualizar el blog, la verdad es que tengo que reconocer que cada vez me da más pereza porque crear una entrada en el blog es un trabajo bastante laborioso y lo cierto es que hoy en día la mayoría preferimos opciones más rápidas y más dinámicas como Instagram. Si aún no me sigues por ahí te animo a que lo hagas porque estoy mucho más activa en &lt;a href="https://www.instagram.com/cookinaria/?hl=es"&gt;mi cuenta de Instagram&lt;/a&gt; que por aquí.&lt;/p&gt;
+
+&lt;p&gt;Pero este blog es como nuestro bebé, y me gusta darle mimos y seguir cuidándolo aunque sea a otro ritmo ;-) Sobre esta nueva receta de tacos veggie no puedo dejar de insistir para que la probéis, el chili veggie va hecho con coliflor y nueces, y te gustará aunque no te guste la coliflor :-) En serio! Mis niños lo han comido disfrutándolo muchísimo y en ningún momento han sospechado que estaban hechos con coliflor, que no les gusta nada, sobre todo a Daniela que a sus 9 años no es fácil colársela :-D&lt;/p&gt;
+
+&lt;p&gt;La receta es muy sencilla: sólo tienes que triturar todos ingredientes hasta formar una pasta gruesa, extiéndela en una bandeja y hornea 30-40 minutos, y chili veggie para tus tacos listo!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Arroz con setas y butifarra</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2020/04/06/arroz-con-setas-y-butifarra.html"/>
+    <id>http://blog.url.com/blog/2020/04/06/arroz-con-setas-y-butifarra.html</id>
+    <published>2020-04-06T02:00:00+02:00</published>
+    <updated>2024-02-06T21:56:59+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Comparto esta receta tan rica que hemos hecho hoy en casa, se trata de un &lt;strong&gt;arroz con setas y butifarra fresca&lt;/strong&gt; que estaba para chuparse los dedos.La prueba es que no sólo han repetido sino que los platos han quedado tan limpios que casi que no hacía falta fregarlos! Es la primera vez que hacía esta receta y es seguro que repetiremos porque ha sido todo un triunfo.&lt;/p&gt;
+
+&lt;p&gt;Puedes sustituir la butifarra por longaniza o salchichas frescas, y champiñones en lugar de setas. Incluso sustituir las judías verdes por cualquier otra verdura que tengas más a mano. Seguro que con alcachofas la receta también funciona fenomenal, ahí dejo la idea ;-)&lt;/p&gt;
+</content>
+  </entry>
+</feed>

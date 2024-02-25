@@ -1,0 +1,441 @@
+:root {
+  --green: #7dc864;
+  --purple: #993366;
+  --grey: #a8a8a8;
+  --black: #000000;
+}
+
+.horizontal-menu ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0 auto 20px 0;
+  display: flex; /* Display items in a row */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Hamburger Menu Style */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .horizontal-menu ul {
+    display: none; /* Hide by default on small screens */
+  }
+
+  .horizontal-menu ul.show {
+    display: block; /* Show when 'show' class is added */
+  }
+
+  .content-wrapper {
+    flex-direction: column; /* Stack main content and side menu vertically */
+    display: flex; /* or 'grid' */
+    justify-content: center; /* For Flexbox, center children horizontally */
+    align-items: stretch; /* For Flexbox, make children fill the vertical space */
+    /* ... other properties ... */
+  }
+
+  .main-content {
+    width: 100%; /* Full width */
+  }
+
+  .side-menu {
+    width: 100%; /* Full width */
+    order: 2; /* Move the side menu to the bottom */
+    /* Add any additional styling needed for the side menu on smaller screens */
+  }
+}
+
+.horizontal-menu li {
+  margin-right: 10px;
+  position: relative;
+}
+
+.horizontal-menu a {
+  text-decoration: none; /* Optional: removes underline from links */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 0.8em;
+  line-height: 1.6;
+  color: var(--grey);
+}
+
+/* Hide dropdown content by default */
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px; /* Set a minimum width if needed */
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Position the dropdown content below the dropdown button */
+.dropdown .dropdown-content {
+  top: 100%;
+  left: 0;
+}
+
+/* Style for dropdown links */
+.dropdown .dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 0.7em;
+  line-height: 1.6;
+  text-decoration: none;
+  color: black;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown .dropdown-content a:hover {
+  background-color: #f1f1f1;
+  font-weight: 600;
+}
+
+/* Hide dropdown content by default */
+.dropdown .dropdown-content {
+  display: none;
+  /* ... other styles ... */
+}
+
+/* Show the dropdown content when 'show' class is added by Stimulus */
+.dropdown .dropdown-content.show {
+  display: block;
+}
+
+.dropdown .dropdown-content a:visited {
+  color: grey;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px; /* Adjust the gap between flex items */
+}
+
+.main-content {
+  flex-grow: 1;
+  flex-basis: 70%; /* Adjust the base width of main content */
+  /* Remove if you want main content to automatically adjust */
+}
+
+.side-menu {
+  flex-basis: 30%; /* Adjust the base width of side menu */
+  width: auto; /* Let it adjust based on content */
+  /* Add padding or margin if needed */
+}
+
+.side-menu-title {
+  font-family: 'The Girl Next Door';
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin-bottom: auto;
+  color: var(--black);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the icons */
+  gap: 10px; /* Space between icons */
+}
+
+.tag-cloud span {
+  margin-top: auto;
+  margin-right: 10px;
+}
+
+.social-icons i {
+  font-size: 24px; /* Adjust the size of the icons */
+  color: var(--black); /* Icon color */
+  margin-bottom: 35px;
+}
+
+.social-icons i:hover {
+  color: var(--green); /* Change color on hover */
+}
+
+.book-section {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  margin-bottom: 20px; /* Spacing below the section */
+}
+
+.book-section .text-part {
+  flex: 1; /* Allows the text part to grow and take available space */
+  padding-right: 10px; /* Spacing between text and image */
+}
+
+.book-section .image-part {
+  flex-shrink: 0; /* Prevents the image from shrinking */
+  /* Optional: Define a specific width for the image if necessary */
+}
+
+.book-section img {
+  max-width: 100%; /* Ensures image is responsive */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.header-image-container {
+  text-align: center;
+  display: block;
+  max-width: 100%; /* Ensures the container doesn't exceed the width of its parent */
+}
+
+.header-image {
+  max-width: 100%; /* Image will scale down if it's larger than its parent */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Remove bottom space caused by inline elements */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.site-heading {
+  text-align: center;
+  font-family: 'The Girl Next Door';
+  font-size: 28px;
+  line-height: 1.2em;
+  font-weight: 500;
+  color: var(--grey);
+  /* Rest of your .centered-heading styles */
+}
+
+.author-image {
+  max-width: 30%; /* Image will scale down if it's larger than its parent */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Remove bottom space caused by inline elements */
+  margin: 0 auto 10px auto; /* Center the image horizontally */
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.page-title,
+.index-title {
+  font-family: 'The Girl Next Door';
+  line-height: 1.2em;
+  color: var(--green);
+  margin-bottom: 0;
+}
+
+.index-title {
+  font-size: 1.5em;
+}
+
+.index-tags {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 0.6em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 2em;
+}
+
+.section-title {
+  font-family: 'The Girl Next Door';
+  font-size: 1.5em;
+  line-height: 1.2em;
+  color: var(--black);
+}
+
+.detail-title,
+.recipe-preparation-title {
+  font-family: 'The Girl Next Door';
+  font-size: 1.0em;
+  line-height: 1.2em;
+  color: var(--black);
+}
+
+.recipe-preparation-title {
+  color: var(--purple);
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--purple);
+}
+
+a:visited {
+  color: var(--green);
+}
+
+.content-container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.text-content {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 0.8em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.recipe-index-image,
+.recipe-main-image,
+.page-main-image {
+  max-width: 100%; /* Maximum width is 100% of the parent container */
+  width: auto; /* Width will scale with the aspect ratio */
+  height: auto; /* Height will scale with the aspect ratio */
+  display: block;
+  margin: 0 auto 0 0;
+}
+
+.recipe-secondary-image {
+  max-width: 80%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 15px auto; /* Adjusted margin for horizontal centering */
+}
+
+.recipe-index-image {
+  max-width: 70%;
+  margin: 20px auto 80px 0;
+}
+
+.recipe-preparation .nav-tabs {
+  border-bottom: none;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-bottom: -1px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+.recipe-preparation .nav-tabs li {
+  margin-right: 5px;
+}
+
+.recipe-preparation .nav-tabs li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  background: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+  border-bottom: none;
+}
+
+.recipe-preparation .nav-tabs li.active a,
+.recipe-preparation .nav-tabs li a:hover {
+  background: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 10px;
+  padding-left: 30px;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+.tab-content ol > li {
+  margin-bottom: 10px;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+ol {
+  padding-left: 0;
+}
+
+ol > li > ol {
+  list-style-type: none;
+}
+
+.pagination_button a {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  padding: 0.65em 2em;
+  color: #64af1e;
+  background: #fff;
+  border: 2px solid #64af1e;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: none;
+  border-radius: 5px;
+}
+
+.pagination_button a:hover {
+  color: #4b8217;
+  background: #f3fde9;
+  border: 2px solid #4b8217;
+}
+
+.recipe-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.recipe-table th {
+    padding: 8px;
+    text-align: center;
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #ddd;
+}
+
+.recipe-table-section-header {
+    font-weight: normal;
+    text-align: center !important;
+    background-color: #f7f7f7;
+}
+
+.recipe-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.recipe-table-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.recipe-table-list-element::before {
+  content: "•";
+  padding-right: 8px;
+  color: grey;
+}
+
+.recipe-table-centered-text {
+  text-align: center !important;
+}
